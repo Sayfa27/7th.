@@ -1,0 +1,177 @@
+
+/*-----TOP PART ONE---------*/
+.Top-part{
+	background: url(../img/homepage.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.logo {
+    margin: 15px 0px;
+}
+.top-right {
+    background-color: transparent;
+    float: right;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.top-right li a {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.top-right li a:hover{
+    color: #faff00;
+    font-style: normal;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	color: white;
+}
+/*-----TOP PART TWO---------*/
+.Top-part{
+
+}
+.Top-part2 h1{
+	margin-top: 120px;
+    font-size: 45px;
+    color: white;
+    background-color: #00000066;
+    width: 80%;
+    padding: 12px 75px;
+}
+.Top-part p {
+    width: 76%;
+    color: white;
+    font-size: 15px;
+}
+
+.Top-part2 span {
+    border-bottom: 1px solid white;
+    display: block;
+    width: 20px;
+    margin: 80px 0px 40px;
+}
+.contact-btn {
+    padding: 12px 105px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 280px;
+}
+.contact-btn:hover {
+	background-color: white;
+	color: black;
+	font-weight: 700;
+}
+/*-----------SECTION 2---------------------*/
+.sec-2{
+    background-color: #f6f6f6;
+
+}
+.second-part {
+
+}
+.second-part h1 {
+    padding: 180px 0px 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.second-part span{
+    border-bottom: 1px solid black;
+    display: block;
+    width: 20px;
+    margin: 0px 0px 45px;
+
+}
+.second-part p {
+    color: #888888;
+    width: 80%;
+}
+.arrow img {
+    width: 325%;
+    padding: 160px 0px 0px 0px;
+    margin: 0px -60%;
+}
+.car1 img {
+    padding: 175px 0px 0px;
+}
+
+/*-------------------------SECTION 3--------------------------*/
+.sec-3{
+    background-color: #28282e;
+
+}
+.third-part h1 {
+    color: white;
+    padding: 120px 0px 30px;
+}
+.third-part span{
+    border-bottom: 1px solid white;
+    display: block;
+    width: 20px;
+    margin: 0px 0px 55px;
+}
+.third-part p{
+    color: white;
+
+}
+.page-1-car2 img {
+    padding: 240px 0px;
+    width: 210%;
+}
+.btn-sec-3 {
+    margin: 65px 0px 130px;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}
+.btn-sec-3:hover{
+    background-color:#2b3a8c;
+    font-size: 20px;
+}
+
+
+
+
+/*------footer-------*/
+footer{
+    background-color: red;
+
+}
+footer h1 {
+    font-size: 15px;
+    color: white;
+    padding: 40px 0px 30px;
+}
+.foot{
+    margin: 0 auto;
+}
+
+/*---Media Query___________________*/
+
+/*  medium device   */
+@media (min-width:500.01px ) and (max-width: 720px){
+.arrow img {
+    width:100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+
+    .page-1-car2 img {
+    padding:0px;
+    width: 100%;
+    margin: 0 auto;
+}
+    .contact-btn {
+        margin: 30px auto;
+        display: block;
+
+     
+}
+
+
+}
+
